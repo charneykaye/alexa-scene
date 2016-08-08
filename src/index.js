@@ -4,8 +4,8 @@
  *
  * Examples:
  * One-shot model:
- *  User: "Alexa, run Scene to Bravo Four Niner."
- *  Alexa: "Bravo Four Niner OK."
+ *  User: "Alexa, run Scene to Bravo."
+ *  Alexa: "Bravo OK."
  */
 
 /**

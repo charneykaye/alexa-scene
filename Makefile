@@ -7,4 +7,4 @@ TARGET := ./target
 	rm target/*
 
 all: .target .clean
-	zip $(TARGET)/alexa-scene.zip src/*
+	zip -j $(TARGET)/alexa-scene.zip src/*
