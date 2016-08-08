@@ -1,0 +1,4 @@
+GoScene {Scene}
+GoScene go to {Scene}
+GoScene go {Scene}
+GoScene do {Scene}

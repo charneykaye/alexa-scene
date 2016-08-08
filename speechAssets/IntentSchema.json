@@ -1,0 +1,16 @@
+{
+  "intents": [
+    {
+      "intent": "GoScene",
+      "slots": [
+        {
+          "name": "Scene",
+          "type": "NATO_PHONETIC_ALPHABET"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
