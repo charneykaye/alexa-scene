@@ -1,7 +1,10 @@
 TARGET := ./target
 
 .target:
-	mkdir $(TARGET)
+	mkdir -p $(TARGET)
 
-all: .target
-	zip -r $(TARGET)/alexa-scene.zip *
+.clean:
+	rm target/*
+
+all: .target .clean
+	zip $(TARGET)/alexa-scene.zip src/*
