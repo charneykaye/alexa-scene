@@ -59,7 +59,7 @@ GoScene.prototype.eventHandlers.onSessionEnded = function (sessionEndedRequest, 
 GoScene.prototype.intentHandlers = {
     // register custom intent handlers
     "GoScene": function (intent, session, response) {
-        var msg = intent.slots.Scene.value + " OK.";
+        var msg = intent.slots.Scene.value + ". OK.";
         response.tellWithCard(msg, "Scene", msg);
     },
     "AMAZON.HelpIntent": function (intent, session, response) {
